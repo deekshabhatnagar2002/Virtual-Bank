@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    /* align-items: center;
+    text-align: center;
+    align-self: center; */
+}
+
+body {
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background: linear-gradient(red, blue);
+    color: white;
+    /* opacity: 0.7; */
+    /* z-index: 1; */
+}
+
+.main-heading{
+    margin: 20px;
+    text-decoration: underline;
+    font-family: 'Source Serif Pro', serif;
+}
+
+form {
+    text-align: center;
+    align-items: center;
+    height: 130vh;
+    width: 100vh;
+    border: 2px solid black;
+    margin-left: 400px;
+    background: none;
+    background: rgba(0, 0, 0, 0.2);
+    /* position: absolute;
+    z-index: -1; */
+}
+
+.first-block {
+    border-bottom: 2px solid red;
+}
+
+.paycash {
+    display: flex;
+    margin: 5px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.cash-transfer {
+    margin-left: 500px;
+}
+
+.sub-heading{
+    font-family: 'Source Serif Pro', serif;
+}
+
+.branch {
+    margin: 10px;
+    font-size: 20px;
+    /* width: 100%; */
+}
+
+#Branch {
+    border: none;
+    border-bottom: 2px dashed white;
+    width: 80%;
+}
+
+.branch input:focus~label,
+input {
+    /* color: blue; */
+    color: white;
+    font-size: 20px;
+    background: none
+}
+
+.second-block {
+    border-bottom: 2px solid red;
+}
+
+.account-type {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.atype {
+    margin: 20px;
+}
+
+input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+    /* margin-top: 2px; */
+}
+
+.third-block {
+    border-bottom: 2px solid red;
+}
+
+.accdate {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.accno input:focus~label,
+input {
+    /* color: blue; */
+    color: white;
+    font-size: 20px;
+}
+
+#Account {
+    border: none;
+    border-bottom: 2px dashed white;
+    /* margin-right: 10px; */
+    width: 60%;
+}
+
+.date {
+    margin-left: 80px;
+}
+
+.Date {
+    margin-right: 10px;
+}
+
+#Date {
+    border: none;
+    border-bottom: 2px dashed white;
+}
+
+.credit {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#credit-account {
+    border: none;
+    border-bottom: 2px dashed white;
+    width: 95%;
+}
+
+.fourth-block {
+    border-bottom: 2px solid red;
+}
+
+/* table {
+    border: none;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+th {
+    border-left: none;
+    border: 1px solid black;
+}
+
+.first>td {
+    border: none;
+    border-top: 1px solid black;
+}
+
+.first>.none1 {
+    width: 0px;
+    border: none;
+}
+
+.first>.none1>input{
+    border: none;
+}
+
+.first>.none2{
+    width: 0px;
+}
+
+
+.first>.paise{
+    border: none;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    width: 10px;
+}
+
+td>input {
+    width: 110px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px dashed black;
+}
+
+.fourth>.n1 {
+    border: none;
+}
+
+.fourth>.n1>input{
+    border: none;
+}
+
+.head2,
+.head3,
+.head4 {
+    margin-left: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+td {
+    margin-left: 100px;
+    cursor: text;
+}
+
+.fifth-block {
+    border-bottom: 2px solid red;
+} */
+
+table, tr, th, td{
+    /* align-items: center;
+    text-align: center;
+    align-self: center; */
+    margin: 20px;
+    margin-left: 35px;
+    padding: 5px;
+    border-collapse: collapse;
+    /* width: 200px; */
+}
+
+tr, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+td>input{
+    width: 100px;
+    border: none;
+    border-bottom: 1px dashed white;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}
+
+
+.fifth-block {
+    border-bottom: 2px solid red;
+}
+
+.rupees {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#rupees-words {
+    border: none;
+    border-bottom: 2px dashed white;
+    width: 95%;
+}
+
+.sixth-block {
+    border-bottom: 2px solid red;
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 25px 0px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    overflow: hidden;
+    background-color: red;
+    border: 2px solid black;
+}
+
+a:hover {
+    background-color: violet;
+    color: black;
+}

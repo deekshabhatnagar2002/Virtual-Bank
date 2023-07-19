@@ -1,0 +1,320 @@
+body {
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+#atmButton,
+#buttonLine,
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#atmMachine {
+    border: 3px solid black;
+    width: 23rem;
+    margin: auto;
+    padding: 25px 10px;
+    background: linear-gradient(to bottom right, black, grey, black);
+}
+
+#atmEnterDebitCard {
+    display: flex;
+    height: 13rem;
+    width: 21rem;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 7px;
+    background: linear-gradient(to top right, aqua, white, aqua);
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#atmDisplay {
+    display: none;
+    height: 13rem;
+    width: 21rem;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 7px;
+    background: linear-gradient(to top right, aqua, white, aqua);
+    align-items: center;
+    justify-content: right;
+}
+
+#atmPinEnterDisplay {
+    display: none;
+    flex-direction: column;
+    height: 13rem;
+    width: 21rem;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 7px;
+    background: linear-gradient(to top right, aqua, white, aqua);
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3rem;
+    color: red;
+}
+
+#atmPinEnterDisplay textarea {
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 3rem;
+    width: 10rem;
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+}
+
+#atmWithdrawDisplay {
+    display: none;
+    flex-direction: column;
+    height: 13rem;
+    width: 21rem;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 7px;
+    background: linear-gradient(to top right, aqua, white, aqua);
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3rem;
+    color: red;
+}
+
+#atmWithdrawDisplay textarea {
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 3rem;
+    width: 10rem;
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+}
+
+#atmCheckBalanceDisplay {
+    display: none;
+    height: 13rem;
+    width: 21rem;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 7px;
+    background: linear-gradient(to top right, aqua, white, aqua);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.4rem;
+}
+
+#atmChangePINDisplay {
+    display: none;
+    flex-direction: column;
+    height: 13rem;
+    width: 21rem;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 7px;
+    background: linear-gradient(to top right, aqua, white, aqua);
+    align-items: center;
+    justify-content: center;
+}
+
+#previousPIN {
+    border: 4px solid black;
+    border-radius: 8px;
+    height: 2rem;
+    width: 10rem;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: auto;
+}
+
+#newPIN {
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 2rem;
+    width: 10rem;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: auto;
+}
+
+#confirmPIN {
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 2rem;
+    width: 10rem;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: auto;
+}
+
+#atmCancelDisplay {
+    display: none;
+    height: 13rem;
+    width: 21rem;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 7px;
+    background: linear-gradient(to top right, aqua, white, aqua);
+    align-items: center;
+}
+
+.atmMenu {
+    margin: 3px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 9rem;
+    color: white;
+    text-align: center;
+    background-color: blue;
+    font-size: 1.2rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.atmMenu:hover {
+    background-color: rgb(96, 96, 255);
+    cursor: pointer;
+}
+
+#debitCardStatus {
+    margin: 1.3rem 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+#indicatorButton {
+    margin: 1px 5px;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 2px solid red;
+    border-radius: 20px;
+    background: linear-gradient(to top right, white, rgb(255, 73, 73), white);
+}
+
+#cardInstruction {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+#upwardArrow img {
+    text-align: center;
+    color: red;
+    height: 40px;
+    width: 60px;
+}
+
+#cardIndicatorButton {
+    text-align: center;
+    margin: 1px 5px;
+    width: 3rem;
+    height: 0.3rem;
+    border: 2px solid red;
+    border-radius: 20px;
+    background: linear-gradient(to top right, white, rgb(255, 73, 73), white);
+}
+
+#cardIndicatorButton:hover {
+    cursor: pointer;
+}
+
+.button {
+    height: 4rem;
+    width: 4rem;
+    margin: 5px;
+    padding: 4px;
+    border: 2px solid black;
+    /* background-color: #bcbcbc; */
+    background: linear-gradient(to top right, grey, white);
+    border-radius: 8px;
+    font-size: 1.4rem;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 1px 1px white;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+#cancel {
+    /* background-color: #ff4646; */
+    background: linear-gradient(to top right, red, #ff4646, white);
+}
+
+#clear {
+    /* background-color: yellow; */
+    background: linear-gradient(to top right, yellow, rgb(255, 255, 136), white);
+}
+
+#enter {
+    /* background-color: rgb(2, 184, 2); */
+    background: linear-gradient(to top right, green, rgb(2, 184, 2), white);
+}
+
+
+#debitCardMsg {
+    margin: 2px;
+    padding: 5px;
+    /* border: 2px solid black; */
+    border-radius: 7px;
+    font-size: 1.75rem;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255, 0, 0);
+}
+
+#atmCancelDisplay img {
+    height: 7rem;
+    animation-name: cancelAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cancelAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1.25);
+    }
+
+    40% {
+        transform: scale(1);
+    }
+
+    60% {
+        transform: scale(1.25);
+    }
+
+    80% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.25);
+    }
+}
+
+#atmCancelDisplay {
+    color: red;
+    font-size: 1.5rem;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 1px 1px rgb(255, 128, 128);
+}

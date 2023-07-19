@@ -1,0 +1,255 @@
+*{
+    margin:0px;
+    padding: 0px;
+    /* font-family: 'Abel', sans-serif; */
+    font-family: 'Zilla Slab', serif;
+    scroll-behavior: smooth;
+}
+
+.sectionHeading{
+    font-size: 1.15rem;
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-underline-offset: 5px;
+}
+
+#logo img{
+    height: 5rem;
+    width: 5rem;
+    margin: 3px 10px; 
+}
+
+#logoutButton img{
+    height: 3rem;
+    width: 3rem;
+}
+
+#logOutButton{
+    margin: 3px 10px;
+}
+
+#heading::before{
+    content: '';
+    background:url('money (4).jpg') no-repeat center center/cover;
+    /* background:url('Bank_Image.jpg') no-repeat center center/cover; */
+    position: absolute;
+    /* position: relative; */
+    height: 350px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+    opacity: 0.8;
+}
+
+#heading h1::before{
+    content: '';
+    background-color: red;
+    /* position: absolute; */
+    position: absolute;
+    height: 60px;
+    width: 428px;
+    z-index: -2;
+    opacity: 0.7;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+
+#heading{
+    height: 245px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heading h1{
+    color: white;
+    font-size: 3rem;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+#dcDetails{
+    margin: 10px;
+}
+#dcImage{
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px;
+}
+nav{
+    margin: 3px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(24, 24, 206);
+    opacity: 0.8;
+    position: sticky;
+    top: 0px;
+}
+
+#navigation ul li{
+    display: inline;
+    margin: 4px;
+    /* border: 2px solid black; */
+    padding: 2px;
+}
+
+#userName{
+    color: blue;
+}
+.navbtn{
+    padding: 5px;
+    border-radius: 10px;
+    color:white;
+    font-size: 1.2rem;
+    transition: all 0.4s ease-in-out;
+}
+#navigation ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+#navigation ul li a:hover{
+    color: rgb(0, 0, 189);
+}
+.navbtn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(0, 0, 189);
+}
+
+#container{
+    background:url('Bank_Image.jpg') no-repeat center center/cover;
+}
+#content{
+    width: 60%;
+    margin: auto;
+    box-shadow: 4px -4px 15px black;
+    background-color: white;
+}
+
+#accHeading{
+    font-size: 1.15rem;
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-underline-offset: 5px;
+}
+
+table{
+    margin-top: 10px;
+}
+
+table tr th, table tr td{
+    margin: 2px 5px;
+    padding: 1px 5px;
+    border: 1px solid black;
+    width: 136px;
+}
+section{
+    text-align: center;
+}
+#loginTime, #welcome{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Oswald', sans-serif; */
+}
+#loginTime{
+    margin-top: 2.5rem;
+}
+#DateAndTime{
+    font-family: 'Goldman', cursive;
+    color: green;
+    margin: 0px 15px;
+}
+#offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+}
+
+#logoutButton:hover{
+    cursor: pointer;
+}
+
+#accountSummary{
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#bankOffers img{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+}
+
+#checkBal:hover{
+    cursor: pointer;
+}
+
+#ContactUs{
+    font-size: 1.2rem;
+    margin: 10px;
+    height: 450px;
+}
+#ContactUs h1{
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-underline-offset: 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+#box{
+    width: 55%;
+    margin: auto;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    background: linear-gradient(to top right,#80808085, white, #80808085);
+    font-weight: bold;
+}
+
+#box p{
+    margin: 10px;
+}
+
+#box textarea, #box select, #box input{
+    border-radius: 7px;
+    padding: 3px;
+    margin: 0px 3px;
+}
+#callTime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box button{
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 4px;
+    color: red;
+    text-shadow: white;
+    background-color: white;
+    cursor: pointer;
+}
+
+#box button:hover{
+    background: linear-gradient(to top right, white, #00e1ff, white, #00e1ff, white);
+}
+
+footer{
+    width:100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: black;
+    color: white;
+}
